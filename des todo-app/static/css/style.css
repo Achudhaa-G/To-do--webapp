@@ -1,0 +1,108 @@
+/* Cyberpunk Theme Styling */
+body {
+    font-family: 'Orbitron', sans-serif;
+    background: linear-gradient(135deg, #2d2d2d, #1a1a1a);
+    color: #0ff1ce;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 0 15px #00ffe7, 0 0 30px #008cff;
+    color: #0ff1ce;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 3rem;
+    text-shadow: 0 0 10px #00ffe7, 0 0 20px #008cff;
+    margin-bottom: 20px;
+}
+
+.task-form input,
+.task-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    background: rgba(0, 0, 0, 0.7);
+    border: 1px solid #0ff1ce;
+    color: #0ff1ce;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    outline: none;
+    box-shadow: 0 0 8px #00ffe7;
+}
+
+.task-form input::placeholder,
+.task-form textarea::placeholder {
+    color: #0078ff;
+}
+
+.task-form button {
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(90deg, #00ffe7, #008cff);
+    border: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.task-form button:hover {
+    background: linear-gradient(90deg, #008cff, #00ffe7);
+    transform: scale(1.05);
+}
+
+.task-list {
+    margin-top: 20px;
+}
+
+.task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+    margin-bottom: 15px;
+    color: #0ff1ce;
+    box-shadow: 0 0 10px #00ffe7;
+}
+
+.task-item span {
+    font-size: 1.2rem;
+}
+
+.task-item button {
+    background: linear-gradient(90deg, #ff007f, #ff00ff);
+    color: black;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.task-item button:hover {
+    background: linear-gradient(90deg, #ff00ff, #ff007f);
+    transform: scale(1.1);
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #0078ff;
+    font-size: 0.9rem;
+}
